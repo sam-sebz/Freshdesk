@@ -1,14 +1,17 @@
-# Ignore Python virtual environments
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
 
-# Ignore environment files
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Env file
 .env
 
-# VS Code settings
+# IDEs
 .vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
+.idea/
